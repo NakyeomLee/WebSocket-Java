@@ -17,6 +17,9 @@ public class MyClient {
         PrintWriter pw = new PrintWriter(socket.getOutputStream(), true);
         pw.println("Hello World");
 
+        MyWriter mw = new MyWriter(socket.getOutputStream(), true);
+        mw.println("Hello World");
+
 //        BufferedWriter bw = new BufferedWriter(
 //                new OutputStreamWriter(socket.getOutputStream())
 //        );
