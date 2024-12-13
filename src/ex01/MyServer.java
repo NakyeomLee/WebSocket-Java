@@ -9,6 +9,8 @@ import java.net.Socket;
 public class MyServer {
 
     public static void main(String[] args) {
+        
+        // MyServer 실행하고 MyClient 실행한 다음 MyServer의 콘솔창 확인하기
 
         try {
             // 1. 서버 소켓 생성 (포트 번호 10000)
